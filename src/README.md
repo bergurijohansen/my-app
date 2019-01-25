@@ -2,10 +2,13 @@
 
 ## package.json
 
+insert these lines.
+
+add below version:
 ```
  "homepage": "https://taniarascia.github.io/react-tutorial",
 ```
-and into scripts add:
+and into the scripts section add:
 ```  
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
@@ -18,10 +21,14 @@ write these commands
 npm install --save-dev gh-pages
 ```
 
-remember to push the package json file to github
+*** remember to push the package json file to github ***
 
 ```
 npm run build
 
 npm run deploy
 ```
+
+### Credits
+thanks to Tania Rascia.
+https://www.taniarascia.com/getting-started-with-react/
