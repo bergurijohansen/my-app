@@ -21,7 +21,7 @@ write these commands
 npm install --save-dev gh-pages
 ```
 
-*** remember to push the package json file to github ***
+***remember to push the package json file to github***
 
 ```
 npm run build
